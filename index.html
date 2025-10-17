@@ -1,0 +1,1734 @@
+/Users/tomoya/Downloads/saveweb2zip-com-www-software-shop-com (1)/index.html<!DOCTYPE html><html lang="es"><head>
+    <meta charset="utf-8">
+
+        <title>Software Shop - Registro</title>
+    <meta name="description" content="Regístrate en Software Shop y disfruta del contenido que tenemos para ti.">
+
+    <meta content="Software Shop" property="og:title">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="google-site-verification" content="HGvty_AnH4EbsT13A6WpjVsDruGqMmSPkYwnEw7B-8I">
+
+    <script type="text/javascript" src="js/widget.js"></script>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        })
+    </script>-->  
+
+    <!-- Start of  Zendesk Widget script -->
+        <script id="ze-snippet" src="js/snippet.js"> </script>
+    <!-- End of  Zendesk Widget script -->
+
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/software-shop.webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery-ui-min.css" rel="Stylesheet">
+    <script src="js/webfont.js"></script>
+
+    <!-- Estilos del video-->
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+
+    <!-- Iconos Fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" crossorigin="anonymous">
+
+    <!-- Iconos Iconify -->
+    <script src="js/iconify.min.js"></script>
+
+    <!-- <style>
+        .loader {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('/images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+        }
+    </style> -->
+
+    
+    
+    <!-- Recaptcha -->
+    <script src="js/api.js"></script>
+    <!-- Recaptcha Fin -->
+
+    <!-- Validacion recaptcha SdeC y login-->
+    <script>
+        $(document).ready(function() {
+            $("#confirmacionSdeC").click(function(){
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('6LcMZIEeAAAAALxPBZ05iAbLXbgicppcFamwPToV', {action: 'validarUsuario'}).then(function(token) {
+                        $("#email-form-sdec").prepend('<input type="hidden" name="token" value="'+ token +'" >');
+                        $("#email-form-sdec").prepend('<input type="hidden" name="action" value="validarTarjeta" >');
+                        $("#email-form-sdec").submit();
+                    });
+                });
+            })
+
+            $("#entrarSesion_mov").click(function(){
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('6LcMZIEeAAAAALxPBZ05iAbLXbgicppcFamwPToV', {action: 'validarUsuario'}).then(function(token) {
+                        $("#form-login").prepend('<input type="hidden" name="token" value="'+ token +'" >');
+                        $("#form-login").prepend('<input type="hidden" name="action" value="validarTarjeta" >');
+                        $("#form-login").submit();
+                    });
+                });
+            })
+
+            $("#nav_login_entrar").click(function(){
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('6LcMZIEeAAAAALxPBZ05iAbLXbgicppcFamwPToV', {action: 'validarUsuario'}).then(function(token) {
+                        $("#form-login1").prepend('<input type="hidden" name="token" value="'+ token +'" >');
+                        $("#form-login1").prepend('<input type="hidden" name="action" value="validarTarjeta" >');
+                        $("#form-login1").submit();
+                    });
+                });
+            })
+        })
+    </script>
+
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Varela Round:400"]
+            }
+        });
+    </script>
+    <script src="js/modernizr.js" type="text/javascript"></script>
+    <link href="/images/favicon_peque�o.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/256-256.png" rel="apple-touch-icon">
+
+    <!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WRPLM6K');</script>
+	<!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-2330697-10"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-2330697-10');
+    </script>
+    <!-- Google Analytics - Vimeo -->
+    <script type="text/javascript" defer="defer" src="js/16978275.js"></script>
+    <!-- End Google Analytics - Vimeo -->
+    <!-- End Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Begin Inspectlet Embed Code -->
+    <script type="text/javascript" id="inspectletjs"> 
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 904700716]);
+    (function() {
+    function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+    })();
+    </script>
+    <!-- End Inspectlet Embed Code -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1552975701681662');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=1552975701681662&ev=PageView&noscript=1"/></noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+
+<!-- Whatsapp -->
+<style>
+   .btn-whatsapp {
+   display: block !important;
+   position: fixed;
+   z-index: 10;
+   bottom: 65px;
+   right: 100px;
+   cursor: pointer;
+   border-radius:100px !important;
+   background-color: #25D366;
+   box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14 ), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
+   transition : all 1s ease;
+   color: #fff;
+   font-size: 20px;
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+   text-align: center;
+   }
+   .btn-whatsapp:hover{
+   background: #075E54;;
+   color: #ffffff;
+   }
+</style>
+<a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=573150662342&text=Hola,%20necesito%20m%C3%A1s%20informaci%C3%B3n" target="_blank" data-ix="flip-letras"><i class="fa-brands fa-whatsapp" title="Escríbanos"></i></a>
+<!-- Whatsapp -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRPLM6K"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- <div class="loader"></div> -->
+<div class="nav-bar-responsive">
+    <div class="contenedor-nav-bar-responsive w-clearfix">
+        <div id="navBar_Entrar_mov" class="nav-bar-responsive w-nav" data-animation="over-left" data-collapse="medium" data-duration="400">
+
+                            <div class="login nav-bar-menu w-nav-button" data-ix="nav-bar-login"><img class="wally" src="images/login_blanco.png" width="25" alt="SS_Logo">
+                    <div>Entrar</div>
+                </div>
+                <nav class="nav-menu-responsive-left w-nav-menu" role="navigation">
+                    <div class="div-registrate">
+                        <div>Inicia Sesi�n</div>
+                        <div class="buscador-portafolio top w-clearfix">
+                            <form name="form-login" class="wf-form-portafolio" id="form-login" method="post" action="https://www.software-shop.com/login">
+                                <div>
+                                    <input class="texto-buscar" type="text" placeholder="Correo Electronico" name="email" required="">
+                                </div>
+                                <input type="hidden" name="_token" value="V91fruCoPjwso8nQV9smp6lqgaFuopJq6RPiw6KR">
+                                <button id="entrarSesion_mov" class="boton-buscar w-inline-block" type="button">Entrar</button>
+                            </form>
+                        </div>
+                        <div class="centro margin-b-0">�No tienes una cuenta?</div><a id="Registrate_mov" class="boton w-button" href="https://www.software-shop.com/registro">Reg�strate</a>
+                    </div>
+                </nav>
+                    </div>
+
+        <div class="divisor"></div>
+        <a id="logo_Navbar_mov" class="brand-responsive w-nav-brand" href="https://www.software-shop.com"><img src="images/logo-ss.png" width="96" alt="SS_Logo">
+        </a>
+        <div class="divisor"></div>
+        <div id="navBar_Menu" class="nav-bar-responsive w-nav" data-animation="over-right" data-collapse="all" data-doc-height="1" data-duration="400">
+            <div class="bar nav-bar-menu w-nav-button" data-ix="nav-bar-open-close">
+                <div class="top-line"></div>
+                <div class="middle-line"></div>
+                <div class="bottom-line"></div>
+                <div>Men�</div>
+            </div>
+            <nav class="nav-menu-responsive-left w-nav-menu" role="navigation">
+                <div class="buscar nav-div-hijo">
+                    <div class="buscador-portafolio top w-clearfix">
+                        <div>
+                            <form method="get" action="https://www.software-shop.com/buscar">
+                                <input class="texto-buscar textoBuscador" placeholder="Buscar" required="required" name="buscar" type="text">
+                                <button id="Buscar_mov" class="boton-buscar w-inline-block">Entrar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-div-hijo">
+                    <div class="dropdown-responsive w-dropdown" data-delay="0">
+                        <div class="azul fondo link-texto w-dropdown-toggle" data-ix="gira-mas-menos">
+                            <div class="boton-dropdown div-column">
+                                <div class="div-loguito"><img src="images/logocuantitative-91.png" width="70">
+                                </div>
+                                <div class="div-mas-menos">
+                                    <div class="barra-horizontal"></div>
+                                    <div class="barra-vertical"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="azul dropdown-lista w-dropdown-list">
+                            <a id="navQuali_mov" class="call-to-action portafolios responsive w-inline-block" href="https://www.software-shop.com/portafolio-qualitative">
+                                <div>Ir al portafolio</div><img class="flecha" src="images/flecha-blanca.png" width="15">
+                            </a>
+                            <a id="navQuali_Productos_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/productos/qualitative">Productos</a>
+                            <a id="navQuali_Formacion_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/formacion/todos/qualitative">Formaci�n</a>
+                            <a id="navQuali_Contenidos_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/contenidos/videos/qualitative">Contenidos</a>
+                            <!-- <a id="navQuali_Foro_mov" class="link-texto w-dropdown-link" href="#">Foro</a> -->
+                            <a id="navQuali_Asesoria_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/asesoria/comercial">Asesor�a</a>
+                        </nav>
+                    </div>
+                    <div class="dropdown-responsive w-dropdown" data-delay="0">
+                        <div class="fondo link-texto rojo w-dropdown-toggle" data-ix="gira-mas-menos">
+                            <div class="boton-dropdown div-column">
+                                <div class="div-loguito"><img src="images/cuantitative-91.png" width="70">
+                                </div>
+                                <div class="div-mas-menos">
+                                    <div class="barra-horizontal"></div>
+                                    <div class="barra-vertical"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="dropdown-lista red w-dropdown-list">
+                            <a id="navQuanti_mov" class="call-to-action portafolios responsive w-inline-block" href="https://www.software-shop.com/portafolio-quantitative">
+                                <div>Ir al portafolio</div><img class="flecha" src="images/flecha-blanca.png" width="15">
+                            </a>
+                            <a id="navQuanti_Productos_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/productos/quantitative">Productos</a>
+                            <a id="navQuanti_Formacion_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/formacion/todos/quantitative">Formaci�n</a>
+                            <a id="navQuanti_Contenidos_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/contenidos/videos/quantitative">Contenidos</a>
+                            <!-- <a id="navQuanti_Foro_mov" class="link-texto w-dropdown-link" href="#">Foro</a> -->
+                            <a id="navQuanti_Asesoria_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/asesoria/comercial">Asesor�a</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="nav-div-hijo">
+                    <div class="dropdown-responsive w-dropdown" data-delay="0">
+                        <div class="fondo link-texto verde w-dropdown-toggle" data-ix="gira-mas-menos">
+                            <div class="boton-dropdown div-column">
+                                <div class="div-loguito"><img src="images/scientific-logo.png" width="70">
+                                </div>
+                                <div class="div-mas-menos">
+                                    <div class="barra-horizontal"></div>
+                                    <div class="barra-vertical"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="dropdown-lista verde w-dropdown-list">
+                            <a id="navElec_mov" class="call-to-action portafolios responsive w-inline-block" href="https://www.software-shop.com/portafolio-scientific">
+                                <div>Ir al portafolio</div><img class="flecha" src="images/flecha-blanca.png" width="15">
+                            </a>
+                            <a id="navElec_Productos_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/productos/scientific">Productos</a>
+                            <a id="navElec_Formacion_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/formacion/todos/scientific">Formaci�n</a>
+                            <a id="navElec_Contenidos_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/contenidos/videos/scientific">Contenidos</a>
+                            <!-- <a id="navElec_Foro_mov" class="link-texto w-dropdown-link" href="#">Foro</a> -->
+                            <a id="navElec_Asesoria_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/asesoria/comercial">Asesor�a</a>
+                        </nav>
+                    </div>
+                    <div class="dropdown-responsive w-dropdown" data-delay="0">
+                        <div class="fondo link-texto violeta w-dropdown-toggle" data-ix="gira-mas-menos">
+                            <div class="boton-dropdown div-column">
+                                <div class="div-loguito"><img src="images/software_logo.png" width="70">
+                                </div>
+                                <div class="div-mas-menos">
+                                    <div class="barra-horizontal"></div>
+                                    <div class="barra-vertical"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="dropdown-lista violeta w-dropdown-list">
+                            <a id="navSoft_Productos_mov" class="call-to-action portafolios responsive w-inline-block" href="https://www.software-shop.com/portafolio-software">
+                                <div>Ir al portafolio</div><img class="flecha" src="images/flecha-blanca.png" width="15">
+                            </a>
+                            <a id="navSoft_Productos_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/productos/software">Productos</a>
+                            <a id="navSoft_Fromacion_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/formacion/todos/software">Formaci�n</a>
+                            <a id="navSoft_Contenidos_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/contenidos/videos/software">Contenidos</a>
+                            <!-- <a id="navSoft_Foro_mov" class="link-texto w-dropdown-link" href="#">Foro</a> -->
+                            <a id="navSoft_Asesoria_mov" class="link-texto w-dropdown-link" href="https://www.software-shop.com/asesoria/comercial">Asesor�a</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="nav-div-hijo">
+                    <a id="distribuidores_mov" class="boton-contacto-responsive w-inline-block" href="https://www.software-shop.com/asociados/distribuidores">
+                        <div class="boton-dropdown div-column">
+                            <div class="div-loguito">
+                                <div>Distribuidores</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a id="instructores_mov" class="boton-contacto-responsive w-inline-block" href="https://www.software-shop.com/asociados/instructores">
+                        <div class="boton-dropdown div-column">
+                            <div class="div-loguito">
+                                <div>Instructores</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav-div-hijo">
+                    <a id="vendors_mov" class="boton-contacto-responsive w-inline-block" href="https://www.software-shop.com/asociados/vendors">
+                        <div class="boton-dropdown div-column">
+                            <div class="div-loguito">
+                                <div>Vendors</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a id="instructivoPagos_mov" class="boton-contacto-responsive w-inline-block" href="https://www.software-shop.com/pagos/instructivo-pagos">
+                        <div class="boton-dropdown div-column">
+                            <div class="div-loguito">
+                                <div>Pagos</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav-div-hijo">
+                    <a id="contacto_mov" class="boton-contacto-responsive w-inline-block" href="https://www.software-shop.com/paises/contacto">
+                        <div class="boton-dropdown div-column">
+                            <div class="div-loguito">
+                                <div>Contacto</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="contenedor-nav-bar">
+    <div class="div-960">
+        <div class="bloque-brand w-clearfix">
+            <a id="logo_Navbar" class="brand w-nav-brand" href="https://www.software-shop.com"><img src="images/logo-ss.png" width="96" alt="SS_Logo"></a>
+        </div>
+        <div class="espacio"></div>
+        <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+            <a id="navPortafolios" class="dropdown morado portafolios w-nav-button">
+                <div>Portafolios</div>
+            </a>
+            <nav class="navmenu w-nav-menu" role="navigation"> 
+                <div class="w-container">
+                    <div class="w-tabs" data-duration-in="300" data-duration-out="100">
+                        <div class="div-submenu links w-tab-menu">
+                            <a id="navQuali" class="azul tab-link w-inline-block w-tab-link" data-w-tab="Tab 1"><img src="images/logocuantitative-91.png" width="100"></a>
+                            <a id="navQuanti" class="rojo tab-link w-inline-block w-tab-link" data-w-tab="Tab 2"><img src="images/cuantitative-91.png" width="100"></a>
+                            <a id="navElec" class="tab-link verde w-inline-block w-tab-link" data-w-tab="Tab 3"><img src="images/scientific-logo.png" width="100"></a>
+                            <a id="navSoft" class="tab-link violeta w-inline-block w-tab-link" data-w-tab="Tab 4"><img src="images/software_logo.png" width="100"></a>
+                        </div>
+                        <div class="w-tab-content">
+                            <div class="w-tab-pane" data-w-tab="Tab 1">
+                                <div class="cuali-dropdown">
+                                    <div class="div-submenu gerente-producto">
+                                        <div class="div-gerente-producto"><img src="images/Clemencia2.png" width="150">
+                                            <h4 class="nombres text-blanco">Clemencia Navarro</h4>
+                                            <h4 class="nombres text-blanco">Gerente de Portafolio</h4>
+                                        </div>
+                                        <div class="div-gerente-producto">
+                                            <h4 class="centro text-blanco">Gesti�n y an�lisis de informaci�n no estructurada.<br>
+                                                <span>Planeaci�n | Gesti�n Bibliogr�fica | An�lisis | Visualizaci�n.</span>
+                                            </h4>
+                                            <a id="navQuali_IrPortafolio" class="call-to-action portafolios w-inline-block" href="https://www.software-shop.com/portafolio-qualitative">
+                                                <div>Ir al portafolio</div><img class="flecha" src="images/flecha-blanca.png" width="15">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="div-submenu elementos links">
+                                        <div id="navQuali_Productos" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <!-- div class="link-portafolios w-dropdown-toggle" data-ix="aparece-productos" -->
+                                            <div class="link-portafolios w-dropdown-toggle">
+                                                <div>Productos</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div id="navQuali_Formacion" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-formacion">
+                                                <div>Formaci�n</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div id="navQuali_Contenidos" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-contenidos">
+                                                <div>Contenidos</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div id="navQuali_Foro" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-foro">
+                                                <div>Foro</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div id="navQuali_Asesoria" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-asesoria">
+                                                <div>Asesor�a</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <!-- div class="div-productos" data-ix="display-none" -->
+                                        <div class="div-productos">
+                                            <a id="nav_Pdr_Maxqda" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/maxqda">
+                                                <img src="images/maxqda_logo_2022.png" width="130">
+                                            </a>
+                                            <a id="nav_Pdr_Amberscript" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/amberscript">
+                                                <img src="images/logo_amberscript.png" width="130">
+                                            </a>
+                                            <a id="nav_Pdr_QDA_miner" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/qda-miner">
+                                                <img src="images/qdaminer.png" width="110">
+                                            </a>
+                                            <a id="nav_Pdr_Quali_VerMas" class="fondo link-texto ver-ms w-inline-block" href="https://www.software-shop.com/productos/qualitative">
+                                                <div><strong>Ver m�s</strong>
+                                                </div><img class="flecha" src="images/grey-arrow.png" width="18">
+                                            </a>
+                                        </div>
+                                        <div class="div-formacion" data-ix="display-none">
+                                            <a id="nav_Formacion_Quali_Webcast" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/webcast/qualitative">
+                                                <img src="images/web-cast-peque.png" width="38"><img class="free" src="images/FREE.png" width="30">
+                                                <div>Webcast</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="#"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quali_Talleres" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/talleres/qualitative">
+                                                <img src="images/talleres_nuevo.png" width="38"><img class="free" src="images/FREE.png" width="30">
+                                                <div>Talleres</div>
+                                            </a>
+                                            <!--<a class="cursos-y-contenido flecha w-inline-block" href="#"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quali_Simposios" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/simposios/qualitative">
+                                                <img src="/images/simposio.png" width="38"><img class="free" src="/images/FREE.png" width="30">
+                                                <div>Simposios</div>
+                                            </a> 
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quali_Entrenamientos" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/entrenamientos/qualitative">
+                                                <img src="/images/eea.png" width="38">
+                                                <div>Cursos</div>
+                                            </a>-->
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quali_Entrenamientos" class="link-texto w-inline-block" href="https://www.software-shop.com/cursos">
+                                                <img src="images/eea.png" width="38">
+                                                <div>Cursos</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <!-- <a id="nav_Formacion_Quali_Diplomados" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/diplomados/qualitative">
+                                                <img src="/images/diplomados.png" width="38">
+                                                <div>Diplomados</div>
+                                            </a> -->
+                                            <a id="nav_Formacion_Quali_Diplomados" class="link-texto w-inline-block" href="https://www.software-shop.com/cursos/info/entrenamientos-especializados">
+                                                <img src="images/diplomados.png" width="38">
+                                                <div>M�s formaci�n</div>
+                                            </a>
+                                            <!-- <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quali_Certificaciones" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/certificaciones/qualitative">
+                                                <img src="/images/certificaciones-1.png" width="28">
+                                                <div>Certificaciones</div>
+                                            </a> --->
+                                        </div>
+                                        <div class="div-contenidos" data-ix="display-none">
+                                            <a id="nav_Videos_Quali" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/videos/qualitative">
+                                                <img src="images/videos.png" width="38">
+                                                <div>Videos</div>
+                                            </a>
+                                            <!--- <a id="nav_Trucos_Quali" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/trucos/qualitative">
+                                                <img src="/images/trucos.png" width="38">
+                                                <div>Trucos</div>
+                                            </a>
+                                            <a id="nav_Articulos_Quali" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/articulos/qualitative">
+                                                <img src="/images/articulos.png" width="38">
+                                                <div>Art�culos</div>
+                                            </a>
+                                            <a id="nav_Noticias_Quali" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/noticias/qualitative">
+                                                <img src="/images/noticias.png" width="56">
+                                                <div>Noticias</div>
+                                            </a> -->
+                                        </div>
+                                        <div class="div-foro" data-ix="display-none">
+                                            <a id="nav_Preguntas_Quali" class="link-texto w-inline-block" href="#"><img src="images/preguntas.png" width="27">
+                                                <div>Preguntas</div>
+                                            </a>
+                                            <a id="nav_Peticiones_Quali" class="link-texto w-inline-block" href="#"><img src="images/peticiones.png" width="30">
+                                                <div>Peticiones</div>
+                                            </a>
+                                            <a id="nav_Otros_Quali" class="link-texto w-inline-block" href="#"><img src="images/otros.png" width="29">
+                                                <div>Otros</div>
+                                            </a>
+                                        </div>
+                                        <div class="div-asesoria" data-ix="display-none">
+                                            <a id="nav_AsesoriaComercial_Quali" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/comercial">
+                                                <img src="images/2-1.png" width="60">
+                                                <div>Asesor�a comercial</div>
+                                            </a>
+                                            <a id="nav_ApoyoExpertos_Quali" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/apoyo">
+                                                <img src="images/3-1.png" width="60">
+                                                <div>Apoyo de Expertos</div>
+                                            </a>
+                                            <a id="nav_SoporteTecnico_Quali" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/soporte">
+                                                <img src="images/1-1.png" width="60">
+                                                <div>Soporte T�cnico</div>
+                                            </a>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-tab-pane" data-w-tab="Tab 2">
+                                <div class="cuanti-dropdown">
+                                    <div class="div-submenu gerente-producto">
+                                        <div class="div-gerente-producto"><img src="images/Erika_Laiton2.png" width="150">
+                                            <h4 class="nombres text-blanco">Erika Paola Lait�n </h4>
+                                            <h4 class="nombres text-blanco">Gerente de Portafolio</h4>
+                                        </div>
+                                        <div class="div-gerente-producto">
+                                            <h4 class="centro text-blanco">Toma de decisiones y soluci�n de problemas.<br>| Riesgo | Estad�stica | Finanzas | Econometr�a</h4>
+                                            <a id="navQuanti_IrPortafolio" class="call-to-action portafolios w-inline-block" href="https://www.software-shop.com/portafolio-quantitative">
+                                                <div>Ir al portafolio</div><img class="flecha" src="images/flecha-blanca.png" width="15">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="div-submenu elementos links rojo">
+                                        <a id="navQuanti_Productos" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <!-- div class="link-portafolios w-dropdown-toggle" data-ix="aparece-productos" -->
+                                            <div class="link-portafolios w-dropdown-toggle">
+                                                <div>Productos</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navQuanti_Formacion" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-formacion">
+                                                <div>Formaci�n</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navQuanti_Contenidos" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-contenidos">
+                                                <div>Contenidos</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navQuanti_Foro" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-foro">
+                                                <div>Foro</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navQuanti_Asesoria" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-asesoria">
+                                                <div>Asesor�a</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                    </div>
+                                    <div>
+                                    	<!-- div class="div-productos" data-ix="display-none" -->
+                                        <div class="div-productos">
+                                            <a id="nav_Pdr_Stata" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/stata"><img src="images/stata.png" width="130">
+                                            </a>
+                                            <a id="nav_Pdr_RiskSimulator" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/risk-simulator"><img src="images/risksimulator.png" width="140">
+                                            </a>
+                                            <a id="nav_Pdr_EViews" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/eviews"><img src="images/EViews_2020.png" width="120">
+                                            </a>
+                                            <a id="nav_Pdr_Quanti_VerMas" class="fondo link-texto ver-ms w-inline-block" href="https://www.software-shop.com/productos/quantitative">
+                                                <div><strong>Ver m�s</strong>
+                                                </div><img class="flecha" src="images/grey-arrow.png" width="18">
+                                            </a>
+                                        </div>
+                                        <div class="div-formacion" data-ix="display-none">
+                                            <a id="nav_Formacion_Quanti_Webcast" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/webcast/quantitative">
+                                                <img src="images/web-cast-peque.png" width="38">
+                                                <img class="free" src="images/FREE.png" width="30">
+                                                <div>Webcast</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quanti_Talleres" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/talleres/quantitative">
+                                                <img src="images/talleres_nuevo.png" width="38">
+                                                <img class="free" src="images/FREE.png" width="30">
+                                                <div>Talleres</div>
+                                            </a>
+                                            <!---<a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quanti_Simposios" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/simposios/quantitative">
+                                                <img src="/images/simposio.png" width="38">
+                                                <img class="free" src="/images/FREE.png" width="30">
+                                                <div>Simposios</div>
+                                            </a> 
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quanti_Entrenamientos" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/entrenamientos/quantitative">
+                                                <img src="/images/eea.png" width="38">
+                                                <div>Cursos</div>
+                                            </a>-->
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quanti_Entrenamientos" class="link-texto w-inline-block" href="https://www.software-shop.com/cursos">
+                                                <img src="images/eea.png" width="38">
+                                                <div>Cursos</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <!--- <a id="nav_Formacion_Quanti_Diplomados" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/diplomados/quantitative">
+                                                <img src="/images/diplomados.png" width="38">
+                                                <div>Diplomados</div>
+                                            </a> -->
+                                            <a id="nav_Formacion_Quanti_Diplomados" class="link-texto w-inline-block" href="https://www.software-shop.com/cursos/info/entrenamientos-especializados">
+                                                <img src="images/diplomados.png" width="38">
+                                                <div>M�s informaci�n</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Quanti_Certificaciones" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/certificaciones/quantitative">
+                                                <img src="images/certificaciones-1.png" width="28">
+                                                <div>Certificaciones</div>
+                                            </a>
+                                        </div>
+                                        <div class="div-contenidos" data-ix="display-none">
+                                            <a id="nav_Videos_Quanti" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/videos/quantitative">
+                                                <img src="images/videos.png" width="38">
+                                                <div>Videos</div>
+                                            </a>
+                                            <!--- <a id="nav_Trucos_Quanti" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/trucos/quantitative">
+                                                <img src="/images/trucos.png" width="38">
+                                                <div>Trucos</div>
+                                            </a>
+                                            <a id="nav_Articulos_Quanti" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/articulos/quantitative">
+                                                <img src="/images/articulos.png" width="38">
+                                                <div>Art�culos</div>
+                                            </a>
+                                            <a id="nav_Noticias_Quanti" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/noticias/quantitative">
+                                                <img src="/images/noticias.png" width="56">
+                                                <div>Noticias</div>
+                                            </a> -->
+                                        </div>
+                                        <div class="div-foro" data-ix="display-none">
+                                            <a id="nav_Preguntas_Quanti" class="link-texto w-inline-block" href="#"><img src="images/preguntas.png" width="27">
+                                                <div>Preguntas</div>
+                                            </a>
+                                            <a id="nav_Peticiones_Quanti" class="link-texto w-inline-block" href="#"><img src="images/peticiones.png" width="30">
+                                                <div>Peticiones</div>
+                                            </a>
+                                            <a id="nav_Otros_Quanti" class="link-texto w-inline-block" href="#"><img src="images/otros.png" width="29">
+                                                <div>Otros</div>
+                                            </a>
+                                        </div>
+                                        <div class="div-asesoria" data-ix="display-none">
+                                            <a id="nav_AsesoriaComercial_Quanti" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/comercial"><img src="images/2-1.png" width="60">
+                                                <div>Asesor�a comercial</div>
+                                            </a>
+                                            <a id="nav_ApoyoExpertos_Quanti" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/apoyo"><img src="images/3-1.png" width="60">
+                                                <div>Apoyo de Expertos</div>
+                                            </a>
+                                            <a id="nav_SoporteTecnico_Quanti" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/soporte"><img src="images/1-1.png" width="60">
+                                                <div>Soporte T�cnico</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-tab-pane" data-w-tab="Tab 3">
+                                <div class="electro-dropdown">
+                                    <div class="div-submenu gerente-producto">
+                                        <div class="div-gerente-producto"><img src="images/instructor-gerson.png" width="140">
+                                            <h4 class="nombres text-blanco">Gerson Cruz </h4>
+                                            <h4 class="nombres text-blanco">Gerente de Portafolio</h4>
+                                        </div>
+                                        <div class="div-gerente-producto">
+                                            <h4 class="centro text-blanco">Soluciones de alto rendimiento para ciencias e ingenier�a.<br> <span>| Analizar | Explorar | Resolver | Visualizar | Simular.</span></h4>
+                                            <a id="navElec_IrPortafolio" class="call-to-action portafolios w-inline-block" href="https://www.software-shop.com/portafolio-scientific">
+                                                <div>Ir al portafolio</div><img class="flecha" src="images/flecha-blanca.png" width="15">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="div-submenu elementos links verde">
+                                        <a id="navElec_Productos" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <!-- div class="link-portafolios w-dropdown-toggle" data-ix="aparece-productos" -->
+                                            <div class="link-portafolios w-dropdown-toggle">
+                                                <div>Productos</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navElec_Formacion" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-formacion">
+                                                <div>Formaci�n</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navElec_Contenidos" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-contenidos">
+                                                <div>Contenidos</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navElec_Foro" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-foro">
+                                                <div>Foro</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navElec_Asesoria" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-asesoria">
+                                                <div>Asesor�a</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <!-- div class="div-productos" data-ix="display-none" -->
+                                        <div class="div-productos">
+                                            <a id="nav_Pdr_Pads" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/maple"><img src="images/maple.png" width="100">
+                                            </a>
+                                            <a id="nav_Pdr_Proteus" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/gams"><img src="images/gams.png" width="130">
+                                            </a>
+                                            <a id="nav_Pdr_CID" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/sigmaplot"><img src="images/sigmaplot.png" width="130">
+                                            </a>
+                                            <a id="nav_Pdr_Elec_VerMas" class="fondo link-texto ver-ms w-inline-block" href="https://www.software-shop.com/productos/scientific">
+                                                <div><strong>Ver m�s</strong>
+                                                </div><img class="flecha" src="images/grey-arrow.png" width="18">
+                                            </a>
+                                        </div>
+                                        <div class="div-formacion" data-ix="display-none">
+                                            <a id="nav_Formacion_Elec_Webcast" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/webcast/scientific">
+                                                <img src="images/web-cast-peque.png" width="38">
+                                                <img class="free" src="images/FREE.png" width="30">
+                                                <div>Webcast</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Elec_Talleres" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/talleres/scientific">
+                                                <img src="images/talleres_nuevo.png" width="38">
+                                                <img class="free" src="images/FREE.png" width="30">
+                                                <div>Talleres</div>
+                                            </a>
+                                            <!--- <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Elec_Simposios" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/simposios/scientific">
+                                                <img src="/images/simposio.png" width="38">
+                                                <img class="free" src="/images/FREE.png" width="30">
+                                                <div>Simposios</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Elec_Entrenamientos" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/entrenamientos/scientific">
+                                                <img src="/images/eea.png" width="38">
+                                                <div>Cursos</div>
+                                            </a> --->
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Elec_Entrenamientos" class="link-texto w-inline-block" href="https://www.software-shop.com/cursos">
+                                                <img src="images/eea.png" width="38">
+                                                <div>Cursos</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <!--- <a id="nav_Formacion_Elec_Diplomados" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/diplomados/scientific">
+                                                <img src="/images/diplomados.png" width="38">
+                                                <div>Diplomados</div>
+                                            </a> -->
+                                            <a id="nav_Formacion_Elec_Diplomados" class="link-texto w-inline-block" href="https://www.software-shop.com/cursos/info/entrenamientos-especializados">
+                                                <img src="images/diplomados.png" width="38">
+                                                <div>M�s informaci�n</div>
+                                            </a>
+                                            <!-- <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Elec_Certificaciones" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/certificaciones/scientific">
+                                                <img src="/images/certificaciones-1.png" width="28">
+                                                <div>Certificaciones</div>
+                                            </a> -->
+                                        </div>
+                                        <div class="div-contenidos" data-ix="display-none">
+                                            <a id="nav_Videos_Elec" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/videos/scientific">
+                                                <img src="images/videos.png" width="38">
+                                                <div>Videos</div>
+                                            </a>
+                                            <!-- <a id="nav_Trucos_Elec" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/trucos/scientific">
+                                                <img src="/images/trucos.png" width="38">
+                                                <div>Trucos</div>
+                                            </a>
+                                            <a id="nav_Articulos_Elec" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/articulos/scientific">
+                                                <img src="/images/articulos.png" width="38">
+                                                <div>Art�culos</div>
+                                            </a>
+                                            <a id="nav_Noticias_Elec" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/noticias/scientific">
+                                                <img src="/images/noticias.png" width="56">
+                                                <div>Noticias</div>
+                                            </a> -->
+                                        </div>
+                                        <div class="div-foro" data-ix="display-none">
+                                            <a id="nav_Preguntas_Elec" class="link-texto w-inline-block" href="#"><img src="images/preguntas.png" width="27">
+                                                <div>Preguntas</div>
+                                            </a>
+                                            <a id="nav_Peticiones_Elec" class="link-texto w-inline-block" href="#"><img src="images/peticiones.png" width="30">
+                                                <div>Peticiones</div>
+                                            </a>
+                                            <a id="nav_Otros_Elec" class="link-texto w-inline-block" href="#"><img src="images/otros.png" width="29">
+                                                <div>Otros</div>
+                                            </a>
+                                        </div>
+                                        <div class="div-asesoria" data-ix="display-none">
+                                            <a id="nav_AsesoriaComercial_Elec" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/comercial"><img src="images/2-1.png" width="60">
+                                                <div>Asesor�a comercial</div>
+                                            </a>
+                                            <a id="nav_ApoyoExpertos_Elec" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/apoyo"><img src="images/3-1.png" width="60">
+                                                <div>Apoyo de Expertos</div>
+                                            </a>
+                                            <a id="nav_SoporteTecnico_Elec" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/soporte"><img src="images/1-1.png" width="60">
+                                                <div>Soporte T�cnico</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-tab-pane" data-w-tab="Tab 4">
+                                <div class="soft-dropdown">
+                                    <div class="div-submenu gerente-producto">
+                                        <div class="div-gerente-producto"><img src="images/Andrea-Uribe-ss-2.png" width="150">
+                                            <h4 class="nombres text-blanco">Andrea Uribe</h4>
+                                            <h4 class="nombres text-blanco">Ejecutiva Comercial</h4>
+                                        </div>
+                                        <div class="div-gerente-producto">
+                                            <h4 class="centro text-blanco">Licenciamos e implementamos<br>| Software dif�cil de encontrar</h4>
+                                            <a id="navSoft_IrPortafolio" class="call-to-action portafolios w-inline-block" href="https://www.software-shop.com/portafolio-software">
+                                                <div>Ir al portafolio</div><img class="flecha" src="images/flecha-blanca.png" width="15">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="div-submenu elementos links violeta">
+                                        <a id="navSoft_Productos" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <!-- div class="link-portafolios w-dropdown-toggle" data-ix="aparece-productos" -->
+                                            <div class="link-portafolios w-dropdown-toggle">
+                                                <div>Productos</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navSoft_Fromacion" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-formacion">
+                                                <div>Formaci�n</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navSoft_Contenidos" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-contenidos">
+                                                <div>Contenidos</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navSoft_Foro" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-foro">
+                                                <div>Foro</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                        <div class="line"></div>
+                                        <a id="navSoft_Asesoria" class="dropdown-link portafolio w-dropdown" data-delay="0">
+                                            <div class="link-portafolios w-dropdown-toggle" data-ix="aparece-asesoria">
+                                                <div>Asesor�a</div>
+                                            </div>
+                                            <nav class="w-dropdown-list"></nav>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <!-- div class="div-productos" data-ix="display-none" -->
+                                        <div class="div-productos">
+                                            <a id="nav_Pdr_PLSQL" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/pl-sql-developer"><img src="images/plsqldeveloper.png" width="140">
+                                            </a>
+                                            <a id="nav_Pdr_EnterpriseArchitect" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/enterprise-architect"><img src="images/enterprisearchitect.png" width="120">
+                                            </a>
+                                            <a id="nav_Pdr_pdfelement" class="fondo link-texto w-inline-block" href="https://www.software-shop.com/producto/pdfelement"><img src="images/pdfelement.png" width="150">
+                                            </a>
+                                            <a id="nav_Pdr_Soft_VerMas" class="fondo link-texto ver-ms w-inline-block" href="https://www.software-shop.com/productos/software">
+                                                <div><strong>Ver m�s</strong>
+                                                </div><img class="flecha" src="images/grey-arrow.png" width="18">
+                                            </a>
+                                        </div>
+                                        <div class="div-formacion" data-ix="display-none">
+                                            <a id="nav_Formacion_Soft_Webcast" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/webcast/software">
+                                                <img src="images/web-cast-peque.png" width="38"><img class="free" src="images/FREE.png" width="30">
+                                                <div>Webcast</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Soft_Talleres" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/talleres/software">
+                                                <img src="images/talleres_nuevo.png" width="38">
+                                                <img class="free" src="images/FREE.png" width="30">
+                                                <div>Talleres</div>
+                                            </a>
+                                            <!--- <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Soft_Simposios" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/simposios/software">
+                                                <img src="/images/simposio.png" width="38">
+                                                <img class="free" src="/images/FREE.png" width="30">
+                                                <div>Simposios</div>
+                                            </a> 
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Soft_Entrenamientos" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/entrenamientos/software">
+                                                <img src="/images/eea.png" width="38">
+                                                <div>Cursos</div>
+                                            </a>--->
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Soft_Entrenamientos" class="link-texto w-inline-block" href="https://www.software-shop.com/cursos">
+                                                <img src="images/eea.png" width="38">
+                                                <div>Cursos</div>
+                                            </a>
+                                            <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="images/flecha-blanca.png" width="19"></a>
+                                            <!-- <a id="nav_Formacion_Soft_Diplomados" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/diplomados/software">
+                                                <img src="/images/diplomados.png" width="38">
+                                                <div>Diplomados</div>
+                                            </a> -->
+                                            <a id="nav_Formacion_Soft_Diplomados" class="link-texto w-inline-block" href="https://www.software-shop.com/cursos/info/entrenamientos-especializados">
+                                                <img src="images/diplomados.png" width="38">
+                                                <div>M�s informaci�n</div>
+                                            </a>
+                                            <!-- <a class="cursos-y-contenido flecha w-inline-block" href="https://www.software-shop.com/formacion"><img src="/images/flecha-blanca.png" width="19"></a>
+                                            <a id="nav_Formacion_Soft_Certificaciones" class="link-texto w-inline-block" href="https://www.software-shop.com/formacion/certificaciones/software">
+                                                <img src="/images/certificaciones-1.png" width="28">
+                                                <div>Certificaciones</div>
+                                            </a> -->
+                                        </div>
+                                        <div class="div-contenidos" data-ix="display-none">
+                                            <!-- <a id="nav_Videos_Soft" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/noticias/software">
+                                                <img src="/images/videos.png" width="38">
+                                                <div>Videos</div>
+                                            </a> -->
+                                            <!-- <a id="nav_Trucos_Soft" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/trucos/software">
+                                                <img src="/images/trucos.png" width="38">
+                                                <div>Trucos</div>
+                                            </a>
+                                            <a id="nav_Articulos_Soft" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/articulos/software">
+                                                <img src="/images/articulos.png" width="38">
+                                                <div>Art�culos</div>
+                                            </a>
+                                            <a id="nav_Noticias_Soft" class="link-texto w-inline-block" href="https://www.software-shop.com/contenidos/noticias/software">
+                                                <img src="/images/noticias.png" width="56">
+                                                <div>Noticias</div>
+                                            </a> -->
+                                        </div>
+                                        <div class="div-foro" data-ix="display-none">
+                                            <a id="nav_Preguntas_Soft" class="link-texto w-inline-block" href="#"><img src="images/preguntas.png" width="27">
+                                                <div>Preguntas</div>
+                                            </a>
+                                            <a id="nav_Peticiones_Soft" class="link-texto w-inline-block" href="#"><img src="images/peticiones.png" width="30">
+                                                <div>Peticiones</div>
+                                            </a>
+                                            <a id="nav_Otros_Soft" class="link-texto w-inline-block" href="#"><img src="images/otros.png" width="29">
+                                                <div>Otros</div>
+                                            </a>
+                                        </div>
+                                        <div class="div-asesoria" data-ix="display-none">
+                                            <a id="nav_AsesoriaComercial_Soft" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/comercial"><img src="images/2-1.png" width="60">
+                                                <div>Asesor�a comercial</div>
+                                            </a>
+                                            <a id="nav_ApoyoExpertos_Soft" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/apoyo"><img src="images/3-1.png" width="60">
+                                                <div>Apoyo de Expertos</div>
+                                            </a>
+                                            <a id="nav_SoporteTecnico_Soft" class="link-texto w-inline-block" href="https://www.software-shop.com/asesoria/soporte"><img src="images/1-1.png" width="60">
+                                                <div>Soporte T�cnico</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+            <a id="nav_Asociados" href="https://www.software-shop.com/cursos?entrenamientos-especializados" class="dropdown morado w-nav-button">
+                <div>Cursos</div>
+            </a>
+        </div> -->
+
+        <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+            <a id="nav_Asociados" class="dropdown morado w-nav-button">
+                <div>Industrias</div>
+            </a>
+            <nav class="navmenu w-nav-menu" role="navigation">
+                <div class="w-container">
+                    <div class="div-menu-links">
+                        <a id="nav_Distribuidores" class="dropdown-link-imagen-texto izquierdo largo w-inline-block" href="https://www.software-shop.com/industrias/energia"><img class="icon" src="images/energia.png" width="30">
+                            <div>Energía</div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+            <a id="nav_Asociados" class="dropdown morado w-nav-button">
+                <div>Asociados</div>
+            </a>
+            <nav class="navmenu w-nav-menu" role="navigation">
+                <div class="w-container">
+                    <div class="div-menu-links">
+                        <a id="nav_Distribuidores" class="dropdown-link-imagen-texto izquierdo largo w-inline-block" href="https://www.software-shop.com/asociados/distribuidores"><img class="icon" src="images/Distribuidores.png" width="30">
+                            <div>Distribuidores</div>
+                        </a>
+                        <a id="nav_Instructores" class="dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/asociados/instructores"><img class="icon" src="images/instructores-icono.png" width="30">
+                            <div>Instructores</div>
+                        </a>
+                        <a id="nav_Vendors" class="derecho dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/asociados/vendors"><img class="icon" src="images/vendors.png" width="30">
+                            <div>Vendors</div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+            <a id="nav_Pagos" class="dropdown morado w-nav-button">
+                <div>Pagos</div>
+            </a>
+            <nav class="navmenu w-nav-menu" role="navigation">
+                <div class="w-container">
+                    <div class="div-menu-links">
+                        <a id="nav_instructivoPagos" class="dropdown-link-imagen-texto izquierdo largo w-inline-block" href="https://www.software-shop.com/pagos/instructivo-pagos"><img class="icon" src="images/ayuda_1.png" width="20">
+                            <div>Instructivo de pagos</div>
+                        </a>
+                        <a id="nav_Tarjeta" class="dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/pagos/tarjeta-credito"><img class="icon" src="images/tarjeta-de-credito-1.png" width="30">
+                            <div>Tarjeta cr�dito/d�bito</div>
+                        </a>
+                        <a id="nav_Transferencia" class="dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/pagos/transferencia-bancaria"><img class="icon" src="images/flecha_pagos.png" width="30">
+                            <div>Transferencia bancaria</div>
+                        </a>
+                        <a id="nav_Cheque" class="derecho dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/pagos/cheque"><img class="icon" src="images/cheque.png" width="30">
+                            <div>Cheque</div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+            <a id="nav_contacto" class="dropdown morado w-nav-button">
+                <div>Contacto</div>
+            </a>
+            <nav class="navmenu w-nav-menu" role="navigation">
+                <div class="w-container">
+                    <div class="columna div-menu-links full">
+                        <div class="dropdown-hijo flexible">
+                            <a id="nav_contacto_Argentina" class="bandera dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/paises/argentina"><img src="images/argentina.png">
+                            </a>
+                            <a id="nav_contacto_Brasil" class="bandera dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/paises/brasil"><img src="images/brasil.png">
+                            </a>
+                            <a id="nav_contacto_Chile" class="bandera dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/paises/chile"><img src="images/chile.png">
+                            </a>
+                            <a id="nav_contacto_Colombia" class="bandera dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/paises/colombia"><img src="images/colombia.png">
+                            </a>
+                        </div>
+                        <div class="dropdown-hijo flexible">
+                            <a id="nav_contacto_Ecuador" class="bandera dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/paises/ecuador"><img src="images/ador.png">
+                            </a>
+                            <a id="nav_contacto_Mexico" class="bandera dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/paises/mexico"><img src="images/mexico.png">
+                            </a>
+                            <a id="nav_contacto_Peru" class="bandera dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/paises/peru"><img src="images/peru.png">
+                            </a>
+                            <a id="nav_contacto_Venezuela" class="bandera dropdown-link-imagen-texto largo w-inline-block" href="https://www.software-shop.com/paises/venezuela"><img src="images/venezuela.png">
+                            </a>
+                        </div>
+                        <div class="dropdown-hijo flexible">
+                            <a id="nav_contacto_OtrosPaises" class="bandera dropdown-link-imagen-texto largo otros w-inline-block" href="https://www.software-shop.com/paises/otros-paises"><img src="images/otros_paises.png" width="76">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="selector-custom">
+            <label for="language-select" class="custom-label">
+                <img src="images/world-wide-web.png" width="20" alt="Select Language">
+            </label>
+            <select name="language" id="language-select" onchange="if (this.value) window.location.href=this.value;" class="custom-select">
+                <option value="" disabled="" selected="">Seleccione un idioma</option>
+                <option value="https://www.software-shop.com/paises/brasil">Portugués</option>
+                <option value="https://www.software-shop.com">Español</option>
+            </select>
+        </div>
+        <!--<div class="espacio"></div>--->
+        <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+            <a id="nav_Lupa_Buscar" class="dropdown login morado w-nav-button" href="https://www.software-shop.com/directorio_portales" target="_blank"><img class="budqueda imagen top w-preserve-3d" src="images/directorio.png" width="24" alt=""> 
+                <div>Portales</div>
+            </a>
+        </div>
+        <!---<div class="espacio"></div>--->
+        <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+            <a id="nav_Lupa_Buscar" class="dropdown login morado w-nav-button"><img class="budqueda imagen top w-preserve-3d" src="images/lupa.png" width="22" alt=""> 
+                <div>Buscar</div>
+            </a>
+            <nav class="navmenu w-nav-menu" role="navigation">
+                <div class="w-container">
+                    <div class="buscador columna div-menu-links full">
+                        <div class="buscador-portafolio top w-clearfix">
+                            <div>
+                                <form method="get" action="https://www.software-shop.com/buscar">
+                                    <input class="texto-buscar textoBuscador" placeholder="Buscar" required="required" autofocus="autofocus" name="buscar" type="text">
+                                    <button id="navBar_boton_Buscar" class="boton-buscar w-inline-block">Entrar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </nav>
+        </div>
+        <div class="left nav-bar w-nav" data-animation="default" data-collapse="all" data-duration="400">
+
+                            <a id="nav_Icono_Entrar" class="dropdown login morado w-nav-button" data-ix="nav-bar-login-topbar"><img class="wally" src="images/log_in.png" width="24" alt="">
+                    <div>
+                        Entrar
+                    </div>
+                </a>
+                <nav class="navmenu w-nav-menu" role="navigation">
+                    <div class="w-container">
+                        <div class="columna div-menu-links full">
+                            <div class="div-entrar">
+                                <div>Inicia Sesi�n</div>
+                                <div class="buscador-portafolio top w-clearfix">
+                                    <form name="form-login" class="wf-form-portafolio" method="post" id="form-login1" action="https://www.software-shop.com/login">
+                                        <div>
+                                            <input class="texto-buscar" type="email" placeholder="Correo Electronico" name="email" required="">
+                                        </div>
+                                        <input type="hidden" name="_token" value="V91fruCoPjwso8nQV9smp6lqgaFuopJq6RPiw6KR">
+                                        <button id="nav_login_entrar" class="boton-buscar w-inline-block" type="button">Ingresar</button>
+                                    </form>
+                                </div>
+                                <div class="centro margin-b-0">�No tienes una cuenta?</div><a id="nav_login_Registrate" class="boton w-button" href="https://www.software-shop.com/registro">Reg�strate</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                    </div>
+    </div>
+</div>
+
+
+    <div class="div-wrapper">
+        <div class="primera seccion">
+            <div class="w-container">
+                <div class="flex row">
+                    <div class="flex-hijo" data-ix="aparece-izquierda-derecha"><img class="icono_subpagina" src="images/llav.png" width="121" alt="">
+                    </div>
+                    <div class="flex-hijo" data-ix="aparece-derecha-izquierda">
+                        <h1 class="heading-blanco">Regístrate</h1>
+                        <div class="text-blanco">en Software Shop y disfruta del<br>contenido que tenemos para ti.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seccion-estirada">
+            <div class="w-container">
+                <div class="form-pagos">
+                    <br>
+                    
+                    <div class="w-form">
+                        <label class="titulo-gris" data-ix="aparece-abajo-a-arriba" for="name">¡Registrate Rapidamente!</label>
+                        <form method="POST" action="https://www.software-shop.com/registro" accept-charset="UTF-8" class="wf-form-portafolio" id="form-registro"><input name="_token" type="hidden" value="V91fruCoPjwso8nQV9smp6lqgaFuopJq6RPiw6KR">
+                            <div class="div-form-asesores">
+                                <!-- -- Script Tooltip ---->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+<!-- -- Script Tooltip ---->
+
+<div class="div-form-asesores" data-ix="aparece-arriba-a-abajo">
+
+    <div class="orden-1">
+<label for="tipo_entidad">Tipo de entidad</label>
+  <select id="tipo_entidad" class="texto-tarjeta w-input" data-ix="aparece-abajo-a-arriba" required name="tipo_entidad">
+    <option selected value="">Sel. Tipo Entidad</option>
+    <option value="1">Académica</option>
+    <option value="2">Corporativa</option>
+    <option value="8">Distribuidor (Reseller)</option>
+    <option value="5">Estudiante</option>
+    <option value="6">Gobierno</option>
+    <option value="4">Otros</option>
+    <option value="7">Personal</option>
+  </select>
+
+  <label for="entidad">Entidad</label>
+  <input id="entidad" class="texto-tarjeta w-input" data-ix="aparece-abajo-a-arriba" placeholder="Entidad / Empresa" required name="entidad" type="text">
+</div>
+
+
+    <div class="orden-1">
+        <!-- <input type="text" class="texto-tarjeta w-input" data-ix="aparece-abajo-a-arriba" placeholder="Nombre / Nome" required> -->
+         <label for="nombre">Nombre</label>
+        <input class="texto-tarjeta w-input" data-ix="aparece-abajo-a-arriba" id="nombre" placeholder="Nombre / Nome" required="required" name="nombre" type="text">
+        <label for="apellido">Apellido</label>
+        <input class="texto-tarjeta w-input" data-ix="aparece-abajo-a-arriba" id="apellido" placeholder="Apellido / Sobrenome" required="required" name="apellido" type="text">
+    </div>
+
+    <div class="orden-1">
+        <label for="ciudad">Ciudad</label>
+        <input id="ciudad" class="texto-tarjeta w-input ciudad_nombre" data-ix="aparece-abajo-a-arriba" maxlength="5" data-toggle="tooltip" title="Busca tu ciudad en la lista desplegada" placeholder="Ciudad / Cidade" required="required" name="ciudad" type="text">
+        <input id="ciudadID" class="texto-tarjeta w-input ciudad_ID" placeholder="Ciudad" required="required" name="ciudadID" type="hidden">
+    </div>
+
+    <div class="orden-1">
+        <div class="margin-t-gif"><img class="loading" width="16" id="loading" style="display:none" src="http://www.exitcertified.com/commonFiles/images/loadingIndicator_2.gif"></div>
+    </div>
+
+    <div class="orden-1">
+        <label for="indicativo">Indicativo</label>
+        <input class="_30 texto-tarjeta w-input ciudad_indicativo" data-ix="aparece-abajo-a-arriba" readonly="" placeholder="Indicativo" name="indicativo" type="text" id="indicativo">
+        <label for="celular">Celular</label>
+        <input class="texto-tarjeta w-input" id="celular" data-ix="aparece-abajo-a-arriba" placeholder="Teléfono / Celular / Fone" name="telef_oficina" type="text">
+        <label for="anexo">Ext/Anexo/Extension</label>
+        <input class="_30 texto-tarjeta w-input" data-ix="aparece-abajo-a-arriba" placeholder="Ext./Anexo/Extensão" name="ext" type="text" id="anexo">
+    </div>
+
+    <div class="orden-1">
+                    <label for="E-mail">Email</label>
+                    <input class="texto-tarjeta w-input" data-ix="aparece-abajo-a-arriba" placeholder="E-mail" required="required" name="e_mail" type="text">
+            </div>
+    <label style="display:none" id="error" for="Empresa-institucion-2">Se deben completar todos los campos del formulario</label>
+    <div class="orden-check">
+        <label class="morado" for="Empresa-institucion-2">¿Deseas recibir correos con información de los productos del portafolio de tu interés?</label>
+        <div class="columna orden-seleccion">
+            <div class="w-radio">
+                <input class="w-radio-input" insp-form-input-id="si_gracias" data-name="Si, Gracias" id="Si, Gracias" name="emailMarketing" type="radio" value="0" checked="">
+                <label class="w-form-label" insp-form-input-id="si_gracias" for="Si, Gracias">�Si, Gracias</label>
+            </div>
+            <div class="w-radio">
+                <input class="w-radio-input" insp-form-input-id="no_gracias" data-name="No, Gracias" id="No, Gracias" name="emailMarketing" type="radio" value="1">
+                <label class="w-form-label" insp-form-input-id="no_gracias" for="No, Gracias">�No, Gracias</label>
+            </div>
+        </div>
+    </div>
+
+</div>                                <button class="enviar-asesoria w-button" id="boton-formulario-registro" data-ix="aparece-abajo-a-arriba" data-wait="Por Favor espere" type="button" value="Enviar" wait="Por Favor espere">Registrar Informaci�n</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="div-form-asesores centro margin-t-20 margin-b-50" data-ix="aparece-arriba-a-abajo" style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px); transition: opacity 1000ms, transform 1000ms;">
+                        <a class="font-habeas" href="https://www.software-shop.com/contactos/general-data-policy" target="_blank" style=" font-size:14px; font-weight: bold; padding: 3px 10px; border: #cdcdcd 1px solid; border-radius: 10px; background-color: #f9f9f9; box-shadow: 5px 10px 8px #f9f9f9;"><span class="color-black">Conozca nuestras políticas de tratamiento de datos</span> aquí</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="w-container">
+        <div class="div-footer"><img src="images/logo_software_shop_blanco.png" width="120" alt="SS_Logo">
+            <div class="derechos">
+                � 2025 Todos los derechos reservados.
+
+               <!-- Directo -  -->
+                    
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="lightbox-solicitud">
+    <div class="ligthbox">
+        <div class="contenido-lightbox"><a id="cerrar_Solicitud_Lightbox" class="lightbox-close w-inline-block" data-ix="cerrar-lightbox-solicitud" href="#"><h1>X</h1></a>
+            <div class="div-solicitud"><img class="wally-solicitud" src="images/persona_gris.png">
+                <h1>Haz tu solicitud:</h1>
+            </div>
+            <div class="w-form">
+                <form class="form" data-name="Email Form" id="email-form" name="email-form">
+                    <div class="orden-form-fabricantes" data-ix="aparece-arriba-a-abajo">
+                        <label class="titulo-form" for="Nombre-5">Nombre:</label>
+                        <input class="relleno w-input" data-name="Nombre" id="Nombre-5" maxlength="256" name="Nombre" required="required" type="text">
+                    </div>
+                    <div class="orden-form-fabricantes" data-ix="aparece-abajo-a-arriba">
+                        <label class="titulo-form" for="Empresa-6">Empresa:�</label>
+                        <input class="relleno w-input" data-name="Empresa" id="Empresa-6" maxlength="256" name="Empresa" required="required" type="text">
+                    </div>
+                    <div class="orden-form-fabricantes" data-ix="aparece-abajo-a-arriba">
+                        <label class="titulo-form" for="tel-fono-3">Tel�fono:</label>
+                        <input class="relleno w-input" data-name="tel�fono" id="tel-fono-3" maxlength="256" name="tel-fono" required="required" type="text">
+                    </div>
+                    <div class="orden-form-fabricantes" data-ix="aparece-abajo-a-arriba">
+                        <label class="titulo-form" for="Ciudad-5">Ciudad:</label>
+                        <input class="relleno w-input" data-name="Ciudad" id="Ciudad-5" maxlength="256" name="Ciudad" required="required" type="text">
+                    </div>
+                    <div class="orden-form-fabricantes" data-ix="aparece-abajo-a-arriba">
+                        <label class="titulo-form" for="Email-2">E-mail:</label>
+                        <input class="relleno w-input" data-name="Email" id="Email-2" maxlength="256" name="Email" required="required" type="email">
+                    </div>
+                    <textarea class="comentario w-input" data-ix="aparece-abajo-a-arriba" data-name="�Qu� solicitas?" id="Qu-solicitas" maxlength="5000" name="Qu-solicitas" placeholder="�Qu� solicitas?" required="required"></textarea>
+                    <div class="boton-enviar">
+                        <input id="enviar_Solicitud_Lightbox" class="boton-enviar w-button" data-ix="aparece-abajo-a-arriba" data-wait="Por favor espera..." type="submit" value="Enviar" wait="Por favor espera...">
+                    </div>
+                    <div class="gracias" data-ix="aparece-abajo-a-arriba">�Muchas Gracias!</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="carrito-de-cotizaciones">
+    <a id="desplegable_Cotizar" class="cotizaciones w-inline-block" data-ix="abrir-desplegable" href="#"><img class="imagen-cotiza" src="images/cotizaciones-1.png" width="21" alt="">
+        <div id="contador-items" style="position: relative; display: none">
+            <div id="numero-items"></div>
+        </div>
+        <div class="cotizar texto-rotado-90-cotizar" id="cotizacion-label" style="position:absolute;right: -5px;top: 33px;">Cotizar</div>
+    </a>
+    <div class="carrito-eventos">
+        <div class="despliegue-eventos w-clearfix" data-ix="desplegable-eventos-oculto">
+            <div class="cotizaciones_sale">
+                <div class="div-close-cotizaciones"><a id="cerrar_Desplegable_ProxEventos" class="cierra-desplegable w-inline-block" data-ix="cierra-desplegable-eventos" href="#"><h1 class="x">X</h1></a>
+                    <div class="titulo-cotizaciones">Pr�ximos eventos</div>
+                </div>
+                <div class="producto-cotizacion">
+
+                <!--<a class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/cursos/treinamento-assincrono-nvivo" target="_blank">
+                    <div>
+                        <div class="div-logo-cursos grilla-eea-logo"><img width="150" src="https://13657d6550b38e99c02d-008ddcec1c290f12fc40f53894ee5c6b.ssl.cf2.rackcdn.com/nvivo_pt.png"></div>
+                    </div>
+                    <div class="flex-cursos">
+                        <div class="flex-texto">
+                            <div class="flex-fecha">
+                                <h5>Curso EaD: Introdu��o � an�lise de informa��es qualitativas e mistas com apoio do</h5>
+                            </div>
+                        </div>
+                        <div class="margin-5-all modalidad qualitative" style="height: 30px;">
+                            <i class="fas fa-shopping-cart"></i>��Leia mais<img class="flecha" src="/images/flecha-blanca.png" width="15">
+                        </div>
+                    </div>
+                </a> --->
+
+                <!-- <a class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/cursos" target="_blank">
+                    <div>
+                        <div class="div-logo-cursos grilla-eea-logo"><img width="98%" src="https://www.software-shop.com/images/Boton-learning-2.png"></div>
+                    </div>
+                    <div class="flex-cursos">
+                        <div class="flex-texto">
+                            <div class="flex-fecha">
+                                <h5 style="text-align: center; padding-left: 15px; padding-right: 15px;">Aprende de manera flexible con el contenido desarrollado por nuestros expertos.</h5>
+                            </div>
+                        </div>
+                        <div class="margin-5-all modalidad scientific" style="height: 30px; background-color:#0C8699;">
+                        Ver más<img class="flecha" src="/images/flecha-blanca.png" width="15">
+                        </div>
+                    </div>
+                </a> -->
+
+                <!-- <a class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="/contenidos/videos" target="_blank">
+                    <div>
+                        <div class="div-logo-cursos grilla-eea-logo"><img width="98%" src="https://www.software-shop.com/images/Boton-Wcs-3.png"></div>
+                    </div>
+                    <div class="flex-cursos">
+                        <div class="flex-texto">
+                            <div class="flex-fecha">
+                                <h5 style="text-align: center; padding-left: 15px; padding-right: 15px;">
+                                    Gracias por asistir a nuestros eventos en el 2023.
+                                    Accede a nuestro contenido especializado de tu interés.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="margin-5-all modalidad scientific" style="height: 30px; background-color:#2F006E;">
+                        ¡Ver videos!<img class="flecha" src="/images/flecha-blanca.png" width="15">
+                        </div>
+                    </div>
+                </a> -->
+                
+
+                <a class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/formacion/webcast" target="_blank">
+                    <div>
+                        <div class="div-logo-cursos grilla-eea-logo"><img width="98%" src="images/Boton-Wcs-3.png"></div>
+                    </div>
+                    <div class="flex-cursos">
+                        <div class="flex-texto">
+                            <div class="flex-fecha">
+                                <h5 style="text-align: center; padding-left: 15px; padding-right: 15px;">Accede a nuestra programación de webcast e inscríbete para recibir contenido especializado de tu interés.</h5>
+                            </div>
+                        </div>
+                        <div class="margin-5-all modalidad scientific" style="height: 30px; background-color:#2F006E;">
+                        ¡Ingresa ya!<img class="flecha" src="images/flecha-blanca.png" width="15">
+                        </div>
+                    </div>
+                </a>
+
+                <!---<a class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/cursos/info/curso-fundamentacion-gestion-integral-riesgos-asinc-4954" target="_blank">
+                    <div>
+                        <div class="div-logo-cursos grilla-eea-logo"><img width="150" src="https://13657d6550b38e99c02d-008ddcec1c290f12fc40f53894ee5c6b.ssl.cf2.rackcdn.com/risksimulator.png"></div>
+                    </div>
+                    <div class="flex-cursos">
+                        <div class="flex-texto">
+                            <div class="flex-fecha">
+                                <h5>Curso online: Gesti�n integral de riesgos con apoyo de herramientas anal�ticas</h5>
+                            </div>
+                        </div>
+                        <div class="margin-5-all modalidad scientific" style="height: 30px;">
+                            <i class="fas fa-shopping-cart"></i>��Comprar<img class="flecha" src="/images/flecha-blanca.png" width="15">
+                        </div>
+                    </div>
+                </a>--->
+                
+                                            
+                        <a id="thumb_Evento_deplegable" class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/formacion/formacion-info/8423">
+                            <div class="div-contenido ico-free">
+                                                                    <img src="images/FREE_1.png" width="40">
+                                                            </div>
+                            <div>
+                                <div class="div-logo-cursos grilla-eea-logo"><img width="150" src="images/risksimulator.png"></div>
+                            </div>
+                            <div class="flex-cursos">
+                                <div class="flex-texto">
+                                    <div class="flex-fecha">
+                                        <h5>Análisis de riesgo de cronograma con Risk Simulator...</h5>
+                                    </div>
+                                    <!--<p class="">2025</p> -->
+                                </div>
+                                <div class="contenido">
+                                    <!-- Si el evento no es virtual muestra fecha y pais-->
+                                                                                    <!-- Si el evento  es virtual solo muestra fecha -->
+                                        <div class="calendar-center margin-t-16">
+                                            <div class="calendar-center bg-ico"> 
+                                                <p class="p-month">Oct</p>
+                                                <p class="p-day"> 17</p>
+                                                <p class="p-year">2025</p>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                                                                <div class="margin-5-all modalidad quantitative">
+                                    <img src="images/6-tipoEE.png" width="30">
+                                    Online
+                                </div>
+                            </div>
+                        </a>
+                                            
+                        <a id="thumb_Evento_deplegable" class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/formacion/formacion-info/8429">
+                            <div class="div-contenido ico-free">
+                                                                    <img src="images/FREE_1.png" width="40">
+                                                            </div>
+                            <div>
+                                <div class="div-logo-cursos grilla-eea-logo"><img width="150" src="images/originpro_2021.png"></div>
+                            </div>
+                            <div class="flex-cursos">
+                                <div class="flex-texto">
+                                    <div class="flex-fecha">
+                                        <h5>Gráficos 2D y multicapa con OriginPro: creación y personalizaci...</h5>
+                                    </div>
+                                    <!--<p class="">2025</p> -->
+                                </div>
+                                <div class="contenido">
+                                    <!-- Si el evento no es virtual muestra fecha y pais-->
+                                                                                    <!-- Si el evento  es virtual solo muestra fecha -->
+                                        <div class="calendar-center margin-t-16">
+                                            <div class="calendar-center bg-ico"> 
+                                                <p class="p-month">Oct</p>
+                                                <p class="p-day"> 23</p>
+                                                <p class="p-year">2025</p>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                                                                <div class="margin-5-all modalidad software">
+                                    <img src="images/6-tipoEE.png" width="30">
+                                    Online
+                                </div>
+                            </div>
+                        </a>
+                                            
+                        <a id="thumb_Evento_deplegable" class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/formacion/formacion-info/8430">
+                            <div class="div-contenido ico-free">
+                                                                    <img src="images/FREE_1.png" width="40">
+                                                            </div>
+                            <div>
+                                <div class="div-logo-cursos grilla-eea-logo"><img width="150" src="images/stata.png"></div>
+                            </div>
+                            <div class="flex-cursos">
+                                <div class="flex-texto">
+                                    <div class="flex-fecha">
+                                        <h5>Stata en acción: Trucos, comandos y funciones para potenciar su ...</h5>
+                                    </div>
+                                    <!--<p class="">2025</p> -->
+                                </div>
+                                <div class="contenido">
+                                    <!-- Si el evento no es virtual muestra fecha y pais-->
+                                                                                    <!-- Si el evento  es virtual solo muestra fecha -->
+                                        <div class="calendar-center margin-t-16">
+                                            <div class="calendar-center bg-ico"> 
+                                                <p class="p-month">Oct</p>
+                                                <p class="p-day"> 24</p>
+                                                <p class="p-year">2025</p>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                                                                <div class="margin-5-all modalidad quantitative">
+                                    <img src="images/6-tipoEE.png" width="30">
+                                    Online
+                                </div>
+                            </div>
+                        </a>
+                                            
+                        <a id="thumb_Evento_deplegable" class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/formacion/formacion-info/8407">
+                            <div class="div-contenido ico-free">
+                                                                    <img src="images/FREE_1.png" width="40">
+                                                            </div>
+                            <div>
+                                <div class="div-logo-cursos grilla-eea-logo"><img width="150" src="images/maxqda_logo_2022.png"></div>
+                            </div>
+                            <div class="flex-cursos">
+                                <div class="flex-texto">
+                                    <div class="flex-fecha">
+                                        <h5>Análisis cualitativo con MAXQDA para Ciencias de la Salud: Poten...</h5>
+                                    </div>
+                                    <!--<p class="">2025</p> -->
+                                </div>
+                                <div class="contenido">
+                                    <!-- Si el evento no es virtual muestra fecha y pais-->
+                                                                                    <!-- Si el evento  es virtual solo muestra fecha -->
+                                        <div class="calendar-center margin-t-16">
+                                            <div class="calendar-center bg-ico"> 
+                                                <p class="p-month">Oct</p>
+                                                <p class="p-day"> 30</p>
+                                                <p class="p-year">2025</p>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                                                                <div class="margin-5-all modalidad qualitative">
+                                    <img src="images/6-tipoEE.png" width="30">
+                                    Online
+                                </div>
+                            </div>
+                        </a>
+                                            
+                        <a id="thumb_Evento_deplegable" class="eventos template-cursos w-inline-block" data-ix="scroll-fliping" href="https://www.software-shop.com/formacion/formacion-info/8416">
+                            <div class="div-contenido ico-free">
+                                                                    <img src="images/FREE_1.png" width="40">
+                                                            </div>
+                            <div>
+                                <div class="div-logo-cursos grilla-eea-logo"><img width="150" src="images/maxqda_logo_2022.png"></div>
+                            </div>
+                            <div class="flex-cursos">
+                                <div class="flex-texto">
+                                    <div class="flex-fecha">
+                                        <h5>Análise qualitativa com MAXQDA para Ciências da Saúde: Potenci...</h5>
+                                    </div>
+                                    <!--<p class="">2025</p> -->
+                                </div>
+                                <div class="contenido">
+                                    <!-- Si el evento no es virtual muestra fecha y pais-->
+                                                                                    <!-- Si el evento  es virtual solo muestra fecha -->
+                                        <div class="calendar-center margin-t-16">
+                                            <div class="calendar-center bg-ico"> 
+                                                <p class="p-month">Oct</p>
+                                                <p class="p-day"> 30</p>
+                                                <p class="p-year">2025</p>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                                                                <div class="margin-5-all modalidad qualitative">
+                                    <img src="images/6-tipoEE.png" width="30">
+                                    Online
+                                </div>
+                            </div>
+                        </a>
+                    
+                </div>
+            </div>
+        </div>
+        <a id="desplegable_ProximosEventos" class="cotizaciones eventos w-inline-block" data-ix="abrir-desplegable-eventos" href="#">
+            <div class="texto-rotado-90">Pr�ximos<br>Eventos</div>
+            <div class="img-rotado-90"><img src="images/p_e.png" alt="Próximos eventos"></div>
+            <img class="imagen-cotiza" src="images/talleres_nuevo.png" alt="">
+        </a>
+    </div>
+    <div class="despliegue w-clearfix" data-ix="desplegable-oculto">
+        <div class="cotizaciones_sale">
+            <div class="div-close-cotizaciones"><a id="cerrar_Desplegable_Cotizar" class="cierra-desplegable w-inline-block" data-ix="cierra-desplegable" href="#"><h1 class="x">X</h1></a>
+                <div class="titulo-cotizaciones" id="totalCotizaciones">Mis cotizaciones:</div>
+            </div>
+            <div class="producto-cotizacion divProductos">
+                <!-- Se cargan los productos de la cotizacion -->
+            </div>
+            <div class="div-cotizar">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="form_mov">
+                        <h4 id="comentario_unico">Comentarios a tu solicitud:</h4>
+                        <textarea class="col-lg-12 col-md-12 col-sm-12 float-null p-font" rows="2" name="comentarioSolicitud"></textarea>
+                    </div>
+                    <a id="boton_Cotizar_Desplegable" class="call-to-action cotizador cotizar w-inline-block" data-ix="abre-lightbox-confirma" href="#">
+                        <div>Cotizar</div><img class="flecha" src="images/flecha-blanca.png" width="19">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lightbox-confirma">
+        <div class="ligthbox">
+            <div class="contenido-lightbox"><a id="cerrar_lightbox_Cotizacion" class="lightbox-close w-inline-block" data-ix="cerrar-lightbox-confirma" href="#"><h1>X</h1></a>
+                <div class="div-solicitud"><img class="wally-solicitud" src="images/formacion-gris.png">
+                    <h1>Confirma tu correo:</h1>
+                </div>
+                <div class="w-form">
+                    <form class="form" data-name="Email Form" id="email-form-sdec" name="email-form" method="get" action="https://www.software-shop.com/cotizar">
+                        <div class="orden-form-fabricantes" data-ix="aparece-abajo-a-arriba">
+                            <label class="titulo-form" for="Email-2">E-mail:</label>
+                            <input class="relleno w-input" data-ix="aparece-abajo-a-arriba" placeholder="Email" required="required" name="e_mail" type="email">
+                        </div>
+                        <input type="hidden" id="cotizar_productos" name="productosCotizacion">
+                        <div class="orden-form-fabricantes" data-ix="aparece-abajo-a-arriba">
+                            <textarea class="relleno w-input" placeholder="Deseas dejar un comentario?" name="comentarioSolicitud"></textarea>
+                        </div>
+                        <button id="confirmacionSdeC" class="boton-enviar w-button" data-ix="aparece-abajo-a-arriba" data-wait="Por favor espera..." type="button" value="Confirmar" wait="Por favor espera...">Confirmar</button>
+                        <div class="orden-1">
+                            <div class="width-100 padding-t-20"><img class="loading" width="28" id="loadingCotiza" src="images/159.gif"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Video -->
+	<!--<a href="https://www.software-shop.com/images/convencion/CLR_PopUp_4.jpg" rel="NuevaImagen"></a> -->
+<!-- Video -->
+
+<script src="js/jquery-ui-min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script src="js/webflow.js" type="text/javascript"></script>
+<script src="js/buscador.js"></script>
+
+
+    <script src="js/ciudades_form_contacto.js"></script>
+
+    <script>
+       $(document).ready(function() {
+            $("#boton-formulario-registro").click(function(){
+                let entidad = document.querySelector('#entidad').value;
+                let nombre = document.querySelector('#nombre').value;
+                let apellido = document.querySelector('#apellido').value;
+                let ciudad = document.querySelector('#ciudad').value;
+                let celular = document.querySelector('#celular').value;
+
+                let error = document.querySelector('#error');
+
+                if(entidad == '' || nombre == '' || apellido == '' || ciudad == '' || celular == ''){
+                    return error.style.display = 'block';
+                }
+                error.style.display = 'none';
+               
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('6LcMZIEeAAAAALxPBZ05iAbLXbgicppcFamwPToV', {action: 'validarUsuario'}).then(function(token) {
+                        $("#form-registro").prepend('<input type="hidden" name="token" value="'+ token +'" >');
+                        $("#form-registro").prepend('<input type="hidden" name="action" value="validarTarjeta" >');
+                        $("#form-registro").submit();
+                    });
+                });
+                
+            })
+        })       
+    </script>    
+
+
+
+<script src="js/cotizaciones.js"></script>
+<script src="js/cotizacionesAbandonadas.js"></script>
+
+<!-- Scripts del video -->
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" charset="utf-8">
+    if(sessionStorage.getItem('mostrarvideo') != "no"){
+        $(document).ready(function(){
+
+            $("a[rel^='NuevaImagen']").prettyPhoto({animation_speed:'normal',slideshow:6000});
+            $(".contactDetails a[rel^='NuevaImagen']:first").prettyPhoto({
+                custom_markup: '<div id="map_canvas" style="width:500px; height:500px"></div>',
+                changepicturecallback: function(){ initialize(); }
+            });
+        });
+
+        $("document").ready(function() {
+            setTimeout(function() {
+                $("a[rel^='NuevaImagen']").trigger('click');
+            },10);
+        });
+    }
+</script>
+<!-- Scripts del video -->
+<script type="text/javascript">
+$(document).ready(function() {
+    $("form").keypress(function(e) {
+        if (e.which == 13) {
+            return false;
+        }
+    });
+});
+</script>
+
+
+</body></html>
